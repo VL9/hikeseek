@@ -154,6 +154,7 @@ h1, h2, h3{
     overflow: hidden;
     object-fit: cover;
   }
+}  
 
 @media (max-width: 40em) {
   .carousel-caption h1{
