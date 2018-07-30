@@ -139,13 +139,13 @@ h1, h2, h3{
   }
 }
 
-@media (min-width: 1680px){
+@media (max-width: 1680px){
   .carousel-item{
     height: 55rem;
   }
 
   .carousel-item > img {
-    height: 45rem;
+    height: 55rem;
   }
 }
 
