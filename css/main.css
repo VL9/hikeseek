@@ -139,7 +139,7 @@ h1, h2, h3{
   }
 }
 
-@media (max-width: 1600px){
+@media (min-width: 1600px){
   .carousel-item{
     height: 55rem;
     width: 100%;
@@ -167,12 +167,6 @@ h1, h2, h3{
   }
 }
 
-@media(max-width: 700px) {
-  .navbar{
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-}
 
 @media(max-width: 991px) {
   iframe{
