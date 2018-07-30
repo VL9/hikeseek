@@ -65,8 +65,8 @@ main{
   letter-spacing: -.05rem;
 }
 
-.review{
-
+.featurette-image{
+  border-radius: 7px;
 }
 
 /* iframe{
@@ -139,9 +139,9 @@ h1, h2, h3{
   }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1920px){
   .carousel-item{
-    height: 55rem;
+    height: 60rem;
     width: 100%;
   }
 
@@ -150,11 +150,15 @@ h1, h2, h3{
     top: 0;
     left: 0;
     width: 100%;
-    height: 55rem;
+    height: 60rem;
     overflow: hidden;
     object-fit: cover;
   }
-}  
+
+  .carousel-caption h1{
+    font-size: 9em;
+  }
+}
 
 @media (max-width: 40em) {
   .carousel-caption h1{
@@ -167,7 +171,6 @@ h1, h2, h3{
     margin-top: 7rem;
   }
 }
-
 
 @media(max-width: 991px) {
   iframe{
