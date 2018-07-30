@@ -121,8 +121,8 @@ h1, h2, h3{
 
 @media(max-width: 700px) {
   .navbar{
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
@@ -175,5 +175,11 @@ h1, h2, h3{
 @media(max-width: 991px) {
   iframe{
     margin: 0!important;
+  }
+}
+
+@media(max-width: 425px) {
+  .reviews iframe{
+    width: 100%;
   }
 }
